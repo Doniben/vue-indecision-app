@@ -1,13 +1,13 @@
 <template>
-  <img v-if="img" alt="Vue logo" :src="img" />
   <div class="indecision-container">
     <MagoSectionVue :answer="answer" />
     <input type="text" placeholder="Hazme una pregunta" v-model="question" />
     <p>Recuerda terminar con un signo de interrogación (?)</p>
     <div v-if="isValidQuestion">
-      <h1>{{ question }}</h1>
+      <h2>{{ question }}</h2>
       <h2>{{ answer }}</h2>
     </div>
+    <img v-if="img" alt="Vue logo" :src="img" />
   </div>
 </template>
 
@@ -50,13 +50,13 @@ export default {
 <style scoped>
 img,
 .bg-dark {
-  height: 100vh;
-  left: 0px;
-  max-height: 100%;
-  max-width: 100%;
-  position: fixed;
-  top: 0px;
-  width: 100vw;
+  height: 60vh;
+  border-radius: 20px;
+}
+
+.question-answer {
+  display: flex;
+  justify-content: center;
 }
 
 .indecision-container {
@@ -86,8 +86,9 @@ h2 {
   color: white;
 }
 
-h2 {
-  margin-top: 150px;
+h2, p {
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 </style>

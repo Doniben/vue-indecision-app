@@ -1,5 +1,5 @@
 <template>
-  <section v-if="!answer" id="mago">
+  <section id="mago">
       <div id="gato"></div>
       <svg viewBox="0 0 500 600" xml:space="preserve">
         <g>
