@@ -1,0 +1,264 @@
+#mago{
+	width: 210px;
+	height: 230px;
+	margin: auto;
+}
+#gato {
+  background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526964/eva/gatito2_eov3hf.svg');
+    height: 175px; 
+    width: 150.5px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 150px;
+    z-index: 1;
+ }
+#gato:hover {  
+  -webkit-animation: sprite-animation 5s steps(27,end) infinite; /* steps = number of frames */
+  -moz-animation: sprite-animation 5s steps(27,end) infinite; /* steps = number of frames */
+   animation: sprite-animation 5s steps(27,end) infinite;
+   }
+   @-webkit-keyframes sprite-animation {
+    from { background-position: 0 0; }
+    to { background-position: -4064.89px 0; } 
+   }
+  @-moz-keyframes sprite-animation {
+    from { background-position: 0 0; }
+    to { background-position: -4064.89px 0; } 
+   }
+  @keyframes sprite-animation {
+    from { background-position: 0 0; }
+    to { background-position: -4064.89px 0; } 
+   }
+
+#pompa1{
+-webkit-animation: pompa1 3s Ease infinite;
+-moz-animation: pompa1 3s Ease infinite;
+-ms-animation: pompa1 3s Ease infinite;
+animation: pompa1 3s Ease infinite;
+}
+ @-moz-keyframes pompa1{
+ 60%{opacity: 0.8;}
+ 100%{-moz-transform: translate(55px,-140px);}
+}
+ @-webkit-keyframes pompa1{
+ 60%{opacity: 0.8;}
+ 100%{-webkit-transform: translate(55px,-140px);}
+}
+ @-ms-keyframes pompa1{
+ 60%{opacity: 0.8;}
+ 100%{-ms-transform: translate(55px,-140px);}
+}
+ @keyframes pompa1{
+ 60%{opacity: 0.8;}
+ 100%{transform: translate(55px,-140px);}
+}
+#pompa2{
+-moz-animation: pompa2 4s Ease infinite;
+-webkit-animation: pompa2 4s Ease infinite;
+animation: pompa2 4s Ease infinite;
+}
+@-moz-keyframes pompa2{
+60%{opacity: 0.8;}
+100%{-moz-transform: translate(-55px,-130px);}
+}
+@-webkit-keyframes pompa2{
+60%{opacity: 0.8;}
+100%{-webkit-transform: translate(-55px,-130px);}
+}
+@keyframes pompa2{
+60%{opacity: 0.8;}
+100%{transform: translate(-55px,-130px);}
+}
+#pompa3{
+-moz-animation: pompa3 3.7s 1s Ease infinite;
+-webkit-animation: pompa3 3.7s 1s Ease infinite;
+animation: pompa3 3.7s 1s Ease infinite;}
+@-webkit-keyframes pompa3{
+60%{opacity: 0.8;}
+100%{-webkit-transform: translate(-25px,-110px);}
+}
+@-moz-keyframes pompa3{
+60%{opacity: 0.8;}
+100%{-moz-transform: translate(-25px,-110px);}
+}
+@keyframes pompa3{
+60%{opacity: 0.8;}
+100%{transform: translate(-25px,-110px);}
+}
+#pompa4{
+-webkit-animation: pompa1 2.9s 1s Ease infinite;
+-moz-animation: pompa1 2.9s 1s Ease infinite;
+animation: pompa1 2.9s 1s Ease infinite;
+}     
+#pompa5{
+-webkit-animation: pompa5 3.4s Ease infinite;
+-moz-animation: pompa5 3.4s Ease infinite;
+animation: pompa5 3.4s Ease infinite;
+}
+@-webkit-keyframes pompa5{
+60%{opacity: 0.8;}
+100%{transform: translate(75px,-130px);}
+}
+@-moz-keyframes pompa5{
+60%{opacity: 0.8;}
+100%{transform: translate(75px,-130px);}
+}
+@keyframes pompa5{
+60%{opacity: 0.8;}
+100%{transform: translate(75px,-130px);}
+}
+#pompa6{
+-webkit-animation: pompa6 2.8s Ease infinite;
+-moz-animation: pompa6 2.8s Ease infinite;
+animation: pompa6 2.8s Ease infinite;
+}
+@-webkit-keyframes pompa6{
+60%{opacity: 0.8;}
+100%{transform: translate(65px,-100px);}
+}
+@-moz-keyframes pompa6{
+60%{opacity: 0.8;}
+100%{transform: translate(65px,-100px);}
+}
+@keyframes pompa6{
+60%{opacity: 0.8;}
+100%{transform: translate(65px,-100px);}
+}
+#pompa7{
+-moz-animation: pompa7 3.2s 1.5s Ease infinite;
+-webkit-animation: pompa7 3.2s 1.5s Ease infinite;
+animation: pompa7 3.2s 1.5s Ease infinite;
+}
+@-webkit-keyframes pompa7{
+60%{opacity: 0.8;}
+100%{transform: translate(85px,-120px);}
+}
+@-moz-keyframes pompa7{
+60%{opacity: 0.8;}
+100%{transform: translate(85px,-120px);}
+}
+@keyframes pompa7{
+60%{opacity: 0.8;}
+100%{transform: translate(85px,-120px);}
+}
+#pompa8{
+-moz-animation: pompa1 3.5s  Ease infinite;
+-webkit-animation: pompa1 3.5s  Ease infinite;
+animation: pompa1 3.5s  Ease infinite;
+} 
+#pompa9{
+-webkit-animation: pompa9 4s  Ease infinite;
+-moz-animation: pompa9 4s  Ease infinite;
+animation: pompa9 4s  Ease infinite;
+} 
+@-webkit-keyframes pompa9{
+0%{transform: translate(0px,0px);}
+60%{opacity: 0.8;}
+100%{transform: translate(-75px,-90px)}
+}
+@-moz-keyframes pompa9{
+0%{transform: translate(0px,0px);}
+60%{opacity: 0.8;}
+100%{transform: translate(-75px,-90px);}
+}
+@keyframes pompa9{
+0%{transform: translate(0px,0px);}
+60%{opacity: 0.8;}
+100%{transform: translate(-75px,-90px);}
+}
+#pompa10{
+-webkit-animation: pompa10 2.5s  Ease infinite;
+-moz-animation: pompa10 2.5s  Ease infinite;
+animation: pompa10 2.5s  Ease infinite;
+} 
+@-webkit-keyframes pompa10{
+60%{opacity: 0.5;}
+100%{transform: translate(5px,-30px);}
+}
+#pompa11{
+-webkit-animation: pompa11 2.5s  Ease infinite;
+-moz-animation: pompa11 2.5s  Ease infinite;
+animation: pompa11 2.5s  Ease infinite;} 
+@-webkit-keyframes pompa11{
+60%{opacity: 0.5;}
+100%{transform: translate(-20px,-60px);}
+}
+@-moz-keyframes pompa11{
+60%{opacity: 0.5;}
+100%{transform: translate(-20px,-60px);}
+}
+@keyframes pompa11{
+60%{opacity: 0.5;}
+100%{transform: translate(-20px,-60px);}
+}
+#pompa12{
+  -webkit-animation: pompa12 3.2s Ease infinite;
+  -moz-animation: pompa12 3.2s Ease infinite;
+  animation: pompa12 3.2s Ease infinite;} 
+@-webkit-keyframes pompa12{
+40%{opacity: 0.7;}
+100%{transform: translate(10px,-80px);}
+}
+@-moz-keyframes pompa12{
+40%{opacity: 0.7;}
+100%{transform: translate(10px,-80px);}
+}
+@keyframes pompa12{
+40%{opacity: 0.7;}
+100%{transform: translate(10px,-80px);}
+}
+#pompa13{-webkit-animation: pompa13 2.7s Ease infinite;
+  -moz-animation: pompa13 2.7s Ease infinite;
+  animation: pompa13 2.7s Ease infinite;} 
+@-webkit-keyframes pompa13{
+    40%{ opacity: 0.7;}
+    100%{-webkit-transform: translate(-50px,-100px);}
+    }
+    @-moz-keyframes pompa13{
+    40%{ opacity: 0.7;}
+    100%{-moz-transform: translate(-50px,-100px);}
+    }
+    @keyframes pompa13{
+    40%{ opacity: 0.7;}
+    100%{transform: translate(-50px,-100px);}
+    }
+    #derch{-webkit-animation: mano_derch 1s  Ease infinite;
+    -moz-animation: mano_derch 1s  Ease infinite;
+    animation: mano_derch 1s  Ease infinite;} 
+    @-webkit-keyframes mano_derch{
+    0%{-webkit-transform: rotate(-0.4deg);}
+    30%{-webkit-transform: rotate(0.5deg);}
+    100%{-webkit-transform: rotate(-0.4deg);}
+    }
+    @-moz-keyframes mano_derch{
+    0%{transform: rotate(-0.4deg);}
+    30%{transform: rotate(0.5deg);}
+    100%{transform: rotate(-0.4deg);}
+    }
+    @keyframes mano_derch{
+    0%{transform: rotate(-0.4deg);}
+    30%{transform: rotate(0.5deg);}
+    100%{transform: rotate(-0.4deg);}
+    }
+    #izq{-webkit-animation: mano_izq 1s  Ease infinite;
+    -moz-animation: mano_izq 1s  Ease infinite;  
+    -ms-animation: mano_izq 1s  Ease infinite;
+    animation: mano_izq 1s  Ease infinite;} 
+    @-webkit-keyframes mano_izq{
+    0%{transform: rotate(0.5deg);}
+    30%{transform: rotate(-0.4deg);}
+    100%{transform: rotate(0.5deg);}
+    }@-ms-keyframes mano_izq{
+    0%{-ms-transform: rotate(0.5deg);}
+    30%{-ms-transform: rotate(-0.4deg);}
+    100%{-ms-transform: rotate(0.5deg);}
+    }
+    @-moz-keyframes mano_izq{
+    0%{transform: rotate(0.5deg);}
+    30%{transform: rotate(-0.4deg);}
+    100%{transform: rotate(0.5deg);}
+    }@keyframes mano_izq{
+    0%{transform: rotate(0.5deg);}
+    30%{transform: rotate(-0.4deg);}
+    100%{transform: rotate(0.5deg);}
+}
