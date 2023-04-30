@@ -1,7 +1,7 @@
 <template>
   <img v-if="img" alt="Vue logo" :src="img" />
   <div class="indecision-container">
-    <MagoSectionVue :anwser="answer" />
+    <MagoSectionVue :answer="answer" />
     <input type="text" placeholder="Hazme una pregunta" v-model="question" />
     <p>Recuerda terminar con un signo de interrogación (?)</p>
     <div v-if="isValidQuestion">
@@ -13,7 +13,7 @@
 
 <script>
 import './mago.css'
-import MagoSectionVue from './MagoSection.vue';
+import MagoSectionVue from '@/components/MagoSection.vue';
 export default {
   components: {
     MagoSectionVue

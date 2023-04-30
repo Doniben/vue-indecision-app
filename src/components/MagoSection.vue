@@ -488,7 +488,7 @@
 <script>
 export default {
     props: {
-        anwser: {
+        answer: {
             type: String,
         }
     }
